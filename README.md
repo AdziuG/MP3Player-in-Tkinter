@@ -1,20 +1,18 @@
 # MP3Player-Tkinter-GUI
 This program will allow you to play songs, music, and all MP3 files on your PC.
-MP3 player using Python is a basic programming application built using the programming language Python.
-It is a GUI program built by the means of Python libraries Tkinter, Pygame and Mutagen.
+It is a GUI program built by the means of Python libraries Tkinter, Pygame and MutagenMP3.
 
 # Functionality:
 
 Back, forward, play, pause and stop buttons.
 Add and remove buttons for a listbox.
-A Listbox to keep track of all songs added to playlist.
-A Volume scale
+A Listbox to keep track of all songs added to playlist and volume scale.
 
 # Installation
 
-$ pip install pygame
+  pip install pygame
 
-$ pip install -r requirements.txt
+  pip install -r requirements.txt
 
 # Run without installation
 
@@ -32,6 +30,9 @@ https://user-images.githubusercontent.com/63744978/130778632-7417c505-49e6-4fee-
 # Usage
 
 First start the program, and a tkinter gui instance will be initialized.
+
 To add a music file to the listbox, press the add button and navigate to the mp3 file location.
+
 Ensure the proper song is selected indicated by the underlined list item.
+
 Press the play button to begin heading the song play.
